@@ -23,7 +23,6 @@ export type CF2Response<T extends CF2IncludeBodyOption = undefined> = {
 
   /**
    * The HTTP status description of the response.
-   * If your function code generates a response, this field is optional.
    * @example 'OK'
    */
   statusDescription: string
