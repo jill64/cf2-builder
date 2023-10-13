@@ -9,7 +9,8 @@
   "bugs": "https://github.com/jill64/cf2-builder/issues",
   "homepage": "https://github.com/jill64/cf2-builder#readme",
   "files": [
-    "dist"
+    "dist",
+    ".babelrc"
   ],
   "exports": {
     ".": {
