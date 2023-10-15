@@ -1,7 +1,6 @@
 # cf2-builder
 
 [![npm](https://img.shields.io/npm/v/cf2-builder)](https://www.npmjs.com/package/cf2-builder)
-[![CI](https://github.com/jill64/cf2-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/cf2-builder/actions/workflows/ci.yml)
 
 A toolkit to build AWS CloudFront Functions with strict type definitions
 
