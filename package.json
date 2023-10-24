@@ -28,13 +28,14 @@
   "scripts": {
     "build": "tsc && npx publint",
     "prepack": "npm run build",
-    "lint": "npx prettier --check . && npx eslint && npx depcheck",
+    "lint": "npx prettier --check . && npx eslint . && npx depcheck",
     "format": "npx prettier --write ."
   },
   "devDependencies": {
     "@types/node": "20.8.8",
     "@typescript-eslint/eslint-plugin": "6.9.0",
     "@typescript-eslint/parser": "6.9.0",
+    "eslint-plugin-deprecation": "2.0.0",
     "typescript": "5.2.2"
   },
   "dependencies": {
