@@ -1,9 +1,10 @@
 {
   "name": "cf2-builder",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "type": "module",
   "description": "A toolkit to build AWS CloudFront Functions with strict type definitions",
   "main": "dist/index.js",
+  "bin": "dist/bin.js",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
   "bugs": "https://github.com/jill64/cf2-builder/issues",
@@ -18,6 +19,8 @@
     }
   },
   "keywords": [
+    "aws",
+    "types",
     "cloudfront",
     "functions"
   ],
@@ -26,7 +29,9 @@
     "url": "https://github.com/jill64/cf2-builder.git"
   },
   "scripts": {
+    "dev": "npx tsx src/bin.ts",
     "build": "tsc && npx publint",
+    "test": "vitest",
     "prepack": "npm run build",
     "lint": "npx eslint . && npx depcheck",
     "format": "npx prettier --write ."
@@ -36,7 +41,8 @@
     "@typescript-eslint/eslint-plugin": "6.9.0",
     "@typescript-eslint/parser": "6.9.0",
     "eslint-plugin-deprecation": "2.0.0",
-    "typescript": "5.2.2"
+    "typescript": "5.2.2",
+    "vitest": "^0.34.6"
   },
   "dependencies": {
     "esbuild": "0.19.5"
