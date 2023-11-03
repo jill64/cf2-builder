@@ -8,12 +8,6 @@
 
 <!----- END GHOST DOCS HEADER ----->
 
-## Installation
-
-```sh
-npm i -D cf2-builder
-```
-
 ## Example
 
 ## Source
