@@ -2,17 +2,17 @@
 
 # cf2-builder
 
-[![npm-version](https://img.shields.io/npm/v/cf2-builder)](https://npmjs.com/package/cf2-builder) [![npm-license](https://img.shields.io/npm/l/cf2-builder)](https://npmjs.com/package/cf2-builder) [![npm-download-month](https://img.shields.io/npm/dm/cf2-builder)](https://npmjs.com/package/cf2-builder) [![npm-min-size](https://img.shields.io/bundlephobia/min/cf2-builder)](https://npmjs.com/package/cf2-builder) [![ci.yml](https://github.com/jill64/cf2-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/cf2-builder/actions/workflows/ci.yml)
+[![npm-version](https://img.shields.io/npm/v/cf2-builder)](https://npmjs.com/package/cf2-builder) [![npm-license](https://img.shields.io/npm/l/cf2-builder)](https://npmjs.com/package/cf2-builder) [![npm-download-month](https://img.shields.io/npm/dm/cf2-builder)](https://npmjs.com/package/cf2-builder) [![npm-min-size](https://img.shields.io/bundlephobia/min/cf2-builder)](https://npmjs.com/package/cf2-builder) [![ci.yml](https://github.com/jill64/cf2-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/cf2-builder/actions/workflows/ci.yml) [![codecov-coverage](https://codecov.io/gh/jill64/cf2-builder/graph/badge.svg)](https://codecov.io/gh/jill64/cf2-builder)
 
 🌐 A toolkit to build AWS CloudFront Functions with strict type definitions
 
-<!----- END GHOST DOCS HEADER ----->
-
-## Installation
+## Install
 
 ```sh
-npm i -D cf2-builder
+npm i cf2-builder
 ```
+
+<!----- END GHOST DOCS HEADER ----->
 
 ## Example
 
