@@ -16,7 +16,7 @@ npm i cf2-builder
 
 ## Example
 
-## Source
+### Source
 
 ```ts:index.ts
 // src/index.ts
