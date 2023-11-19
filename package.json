@@ -47,6 +47,6 @@
     "vitest": "0.34.6"
   },
   "dependencies": {
-    "esbuild": "0.19.5"
+    "esbuild": "0.19.6"
   }
 }
