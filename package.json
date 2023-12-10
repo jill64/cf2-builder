@@ -1,6 +1,6 @@
 {
   "name": "cf2-builder",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "🌐 A toolkit to build AWS CloudFront Functions with strict type definitions",
   "main": "dist/index.js",
@@ -47,6 +47,6 @@
     "vitest": "1.0.4"
   },
   "dependencies": {
-    "esbuild": "0.19.8"
+    "esbuild": "0.19.9"
   }
 }
