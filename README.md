@@ -6,13 +6,13 @@
 
 🌐 A toolkit to build AWS CloudFront Functions with strict type definitions
 
+<!----- END GHOST DOCS HEADER ----->
+
 ## Install
 
 ```sh
 npm i cf2-builder
 ```
-
-<!----- END GHOST DOCS HEADER ----->
 
 ## Example
 
