@@ -51,6 +51,6 @@
     "vitest": "1.0.4"
   },
   "dependencies": {
-    "esbuild": "0.19.9"
+    "esbuild": "0.19.10"
   }
 }
