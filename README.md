@@ -44,3 +44,11 @@ npx cf2-builder src/index.js dist/index.js
 ```
 
 Deploy the output js file to CloudFront using your preferred method.
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
