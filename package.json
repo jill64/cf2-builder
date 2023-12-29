@@ -51,7 +51,7 @@
     "vitest": "1.1.0"
   },
   "dependencies": {
-    "@jill64/ts-cli": "0.2.5",
+    "@jill64/ts-cli": "0.2.6",
     "esbuild": "0.19.10"
   }
 }
