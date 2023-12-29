@@ -1,5 +1,3 @@
-import { build } from './build.js'
+import { cmd } from './cmd.js'
 
-const [src, dist] = process.argv.slice(2)
-
-await build(src, dist)
+await cmd.run(process.argv)

@@ -1,6 +1,6 @@
 {
   "name": "cf2-builder",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "type": "module",
   "description": "🌐 A toolkit to build AWS CloudFront Functions with strict type definitions",
   "main": "dist/index.js",
@@ -44,13 +44,14 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@types/node": "20.10.5",
     "@jill64/eslint-config-ts": "1.0.8",
     "@jill64/prettier-config": "1.0.0",
+    "@types/node": "20.10.5",
     "typescript": "5.3.3",
     "vitest": "1.1.0"
   },
   "dependencies": {
+    "@jill64/ts-cli": "0.2.5",
     "esbuild": "0.19.10"
   }
 }
