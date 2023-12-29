@@ -1,7 +1,6 @@
-import { build as esbuild } from 'esbuild'
-import { appendFile } from 'fs/promises'
+import { cmd } from './cmd.js'
 
-export const build = async (
+export const build = (
   /**
    * The source file to build
    * @example 'src/index.ts'
@@ -12,19 +11,4 @@ export const build = async (
    * @example 'dist/index.js'
    */
   dist: string
-) => {
-  await esbuild({
-    bundle: true,
-    target: 'es5',
-    platform: 'neutral',
-    entryPoints: [source],
-    outfile: dist,
-    format: 'iife',
-    globalName: 'main'
-  })
-
-  await appendFile(
-    dist,
-    'function handler (event) { return main.default(event); }'
-  )
-}
+) => cmd.execute({ args: { source, dist } })
