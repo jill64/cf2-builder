@@ -48,7 +48,7 @@
     "@jill64/prettier-config": "1.0.0",
     "@types/node": "20.11.7",
     "typescript": "5.3.3",
-    "vitest": "1.2.1"
+    "vitest": "1.2.2"
   },
   "dependencies": {
     "@jill64/ts-cli": "0.2.7",
