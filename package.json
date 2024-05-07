@@ -52,6 +52,6 @@
   },
   "dependencies": {
     "@jill64/ts-cli": "1.0.3",
-    "esbuild": "0.20.2"
+    "esbuild": "0.21.0"
   }
 }
