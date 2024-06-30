@@ -1,6 +1,6 @@
 {
   "name": "cf2-builder",
-  "version": "1.1.22",
+  "version": "1.1.23",
   "type": "module",
   "description": "🌐 A toolkit to build AWS CloudFront Functions with strict type definitions",
   "main": "dist/index.js",
@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/cf2-builder.git",
-    "image": "https://opengraph.githubassets.com/2b0d2d1bf8784b9f0e1e95adfc95ec57dcaf38cf54e40b1cff4f266b4e205654/jill64/cf2-builder"
+    "image": "https://opengraph.githubassets.com/25dade7519b0c4909f09972935cff856cdaf8b08e8843e8c5b95fdd49d7d70a2/jill64/cf2-builder"
   },
   "scripts": {
     "dev": "npx tsx src/bin.ts",
@@ -52,6 +52,6 @@
   },
   "dependencies": {
     "@jill64/ts-cli": "1.3.2",
-    "esbuild": "0.21.5"
+    "esbuild": "0.22.0"
   }
 }
