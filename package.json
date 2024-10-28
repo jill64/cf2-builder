@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/cf2-builder.git",
-    "image": "https://opengraph.githubassets.com/4663ffe57eb0880f8225fa591f16cec095ca57d104a069dde76d9fa2a9e4e66a/jill64/cf2-builder"
+    "image": "https://opengraph.githubassets.com/547b1c0c42dd3266c844055887cd16304192d81e87645ecce34c0f1158944953/jill64/cf2-builder"
   },
   "scripts": {
     "dev": "npx tsx src/bin.ts",
@@ -48,7 +48,7 @@
     "@jill64/prettier-config": "1.0.0",
     "@types/node": "20.17.1",
     "typescript": "5.6.3",
-    "vitest": "2.1.3"
+    "vitest": "2.1.4"
   },
   "dependencies": {
     "@jill64/ts-cli": "1.3.3",
