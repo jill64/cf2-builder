@@ -32,7 +32,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/cf2-builder.git",
-    "image": "https://opengraph.githubassets.com/39b6a60d7a0d7815848382a969119b5ef459de0e6b8ddd02a1d0122de0f2f689/jill64/cf2-builder"
+    "image": "https://opengraph.githubassets.com/619906531cf29c4d85f65a7b46889350c3b5ded0cfadc8bb635f7e07cb34ab5a/jill64/cf2-builder"
   },
   "scripts": {
     "dev": "npx tsx src/bin.ts",
