@@ -1,5 +1,5 @@
 import { readFile } from 'fs/promises'
-import { expect, test } from 'vitest'
+import { expect, test } from 'bun:test'
 import { build } from '../../src/build'
 
 test('build-cli', async () => {
