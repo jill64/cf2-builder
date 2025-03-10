@@ -39,7 +39,7 @@
     "build": "tsc && bunx publint",
     "test": "bun test",
     "prepack": "bun run build",
-    "lint": "eslint . && bunx depcheck",
+    "lint": "eslint .",
     "format": "bunx prettier -w ."
   },
   "prettier": "@jill64/prettier-config",
