@@ -35,7 +35,7 @@
     "image": "https://opengraph.githubassets.com/ac1fcbd77445674a0ac8dd345cf14b8542a84ffc71b20dfb9ce693659a82906f/jill64/cf2-builder"
   },
   "scripts": {
-    "dev": "npx tsx src/bin.ts",
+    "dev": "bun src/bin.ts",
     "build": "tsc && bunx publint",
     "test": "bun test",
     "prepack": "bun run build",
