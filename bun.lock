@@ -4,7 +4,7 @@
     "": {
       "name": "cf2-builder",
       "dependencies": {
-        "@jill64/ts-cli": "1.3.4",
+        "@jill64/ts-cli": "1.3.5",
         "esbuild": "0.25.1",
       },
       "devDependencies": {
@@ -100,7 +100,7 @@
 
     "@jill64/transform": ["@jill64/transform@1.0.4", "", {}, "sha512-SHziIwR5oa+2M2udgvHUdqleimbif1F3QAMQA+Ta/xPgv8DED3aFnwA0NPtNQz6v9X3RBI4VICEYCFSpqrqZ7A=="],
 
-    "@jill64/ts-cli": ["@jill64/ts-cli@1.3.4", "", { "dependencies": { "@jill64/transform": "1.0.4" } }, "sha512-tjPTFisJQZfTUJLyS6QCLNPHB9Rkc6x6DXv/n8jemf67Glnb0mctwuVMVs7zG+ZaZscfzLNHGxhsuT4dXx7w2g=="],
+    "@jill64/ts-cli": ["@jill64/ts-cli@1.3.5", "", { "dependencies": { "@jill64/transform": "1.0.4" } }, "sha512-oliESX5Asyw6mLg10T9pqvatlXRwPGs7UzaKty5eoDIwqnUqkIKYOjlNCd8nNc+9d8pifkuNZjI4V9uh3Z5G3Q=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 
