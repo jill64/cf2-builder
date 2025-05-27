@@ -1,6 +1,6 @@
 {
   "name": "cf2-builder",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "type": "module",
   "description": "🌐 A toolkit to build AWS CloudFront Functions with strict type definitions",
   "main": "dist/index.js",
